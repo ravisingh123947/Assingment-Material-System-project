@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="4.0"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd">
+
+
+
+	<servlet>
+		<servlet-name>Servlet1</servlet-name>
+		<servlet-class>com.logitone.webapp.myproject.admin.servlet.AdminLoginServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Servlet1</servlet-name>
+		<url-pattern>/adminlogin</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Servlet2</servlet-name>
+		<servlet-class>com.logitone.webapp.myproject.faculty.servlet.FacultyLoginServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Servlet2</servlet-name>
+		<url-pattern>/facultylogin</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Servlet3</servlet-name>
+		<servlet-class>com.logitone.webapp.myproject.faculty.servlet.FacultySignUpservlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Servlet3</servlet-name>
+		<url-pattern>/facultysignup</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Servlet4</servlet-name>
+		<servlet-class>com.logitone.webapp.myproject.faculty.servlet.ViewFaculties</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Servlet4</servlet-name>
+		<url-pattern>/viewfaculty</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>Servlet5</servlet-name>
+		<servlet-class>com.logitone.webapp.myproject.student.servlet.StudentSignUpServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Servlet5</servlet-name>
+		<url-pattern>/studentsignup</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Servlet6</servlet-name>
+		<servlet-class>com.logitone.webapp.myproject.student.servlet.StudentLoginServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Servlet6</servlet-name>
+		<url-pattern>/studentlogin</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>Servlet7</servlet-name>
+		<servlet-class>com.logitone.webapp.myproject.student.servlet.ViewStudent</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Servlet7</servlet-name>
+		<url-pattern>/viewstudent</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Servlet8</servlet-name>
+		<servlet-class>com.logitone.webapp.myproject.home.HomeLinkControllerServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Servlet8</servlet-name>
+		<url-pattern>/homepage</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Servlet9</servlet-name>
+		<servlet-class>com.logitone.webapp.myproject.admin.servlet.AdminLinkControllerServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Servlet9</servlet-name>
+		<url-pattern>/adminpage</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Servlet10</servlet-name>
+		<servlet-class>com.logitone.webapp.myproject.faculty.servlet.FacultyLinkControllerServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Servlet10</servlet-name>
+		<url-pattern>/facultypage</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Servlet11</servlet-name>
+		<servlet-class>com.logitone.webapp.myproject.student.servlet.StudentLinkControllerServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Servlet11</servlet-name>
+		<url-pattern>/studentpage</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Servlet12</servlet-name>
+		<servlet-class>com.logitone.webapp.myproject.faculty.servlet.DeleteRecord</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Servlet12</servlet-name>
+		<url-pattern>/deleteFacultyRecord</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Servlet13</servlet-name>
+		<servlet-class>com.logitone.webapp.myproject.student.servlet.DeleteStudentRecord</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Servlet13</servlet-name>
+		<url-pattern>/deleteStudentRecord</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Servlet14</servlet-name>
+		<servlet-class>com.logitone.webapp.myproject.faculty.servlet.UploadMaterial</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Servlet14</servlet-name>
+		<url-pattern>/UploadMaterial</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Servlet15</servlet-name>
+		<servlet-class>com.logitone.webapp.myproject.faculty.servlet.UploadQuestion</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Servlet15</servlet-name>
+		<url-pattern>/UploadQuestion</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Servlet16</servlet-name>
+		<servlet-class>com.logitone.webapp.myproject.student.servlet.ViewQuestion</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Servlet16</servlet-name>
+		<url-pattern>/viewQuestion</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Servlet17</servlet-name>
+		<servlet-class>com.logitone.webapp.myproject.student.servlet.UploadAnswer</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Servlet17</servlet-name>
+		<url-pattern>/UploadAnswer</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Servlet18</servlet-name>
+		<servlet-class>com.logitone.webapp.myproject.faculty.servlet.ViewAnswer</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Servlet18</servlet-name>
+		<url-pattern>/ViewAnswer</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Servlet19</servlet-name>
+		<servlet-class>com.logitone.webapp.myproject.student.servlet.ViewMaterial</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Servlet19</servlet-name>
+		<url-pattern>/ViewMaterial</url-pattern>
+	</servlet-mapping>
+
+</web-app>

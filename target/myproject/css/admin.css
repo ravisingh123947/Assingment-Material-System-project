@@ -1,0 +1,17 @@
+#middle {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 70vh;
+}
+
+#name {
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	text-shadow: 2px 2px 5px red;
+	font-size : 60px;
+}
+
+h1 {
+	font-size : 60px;
+}
